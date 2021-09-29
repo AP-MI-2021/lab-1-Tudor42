@@ -57,6 +57,10 @@ def get_cmmdc_v2(x, y):
     i = b % r
     b = r
     r = i
+  
+  if b < 0:
+    b *= -1
+
   return b
   
   
