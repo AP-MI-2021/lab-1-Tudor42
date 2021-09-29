@@ -71,8 +71,8 @@ def main():
   while not quit:
     command = input('$').split()
     if command[0] == 'help':
-      print('cmmdc_v1 [nr1] [nr2] - cel mai mic divizor comun varianta 1')
-      print('cmmdc_v2 [nr1] [nr2] - cel mai mic divizor comun varianta 2')
+      print('cmmdc_v1 [nr1] [nr2] - cel mai mare divizor comun varianta 1')
+      print('cmmdc_v2 [nr1] [nr2] - cel mai mare divizor comun varianta 2')
       print('product [nr_list]    - produsul numerelor')
       print('is_prime [nr]        - verifica daca numarul este prim')
       print('quit                 - opreste programul')
